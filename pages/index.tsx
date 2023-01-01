@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+        <Link href="/books/[book]/[chapter]" as="/books/con-sach-ve-nhung-nguoi-hay-ho/chuong-1" className='font-bold text-sm capitalize'>Cuốn sách về những người hãy ho</Link>
       </main>
     </>
   )
